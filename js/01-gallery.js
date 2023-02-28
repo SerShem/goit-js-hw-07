@@ -35,7 +35,7 @@ galleryConteiner.addEventListener('click', (evt) => {
 
 galleryConteiner.addEventListener("keydown", (evt) => {
 	evt.preventDefault();
-	if (evt.code !== "Escape") {
+	if (evt.code === "Escape") {
 		instance.close();
 	};
 });
